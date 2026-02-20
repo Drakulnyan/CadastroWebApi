@@ -3,11 +3,13 @@ using CadastroWebApi.Application.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using CadastroWebApi.Domain.Entities;
 using CadastroWebApi.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CadastroWebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuarioService _usuarioService;

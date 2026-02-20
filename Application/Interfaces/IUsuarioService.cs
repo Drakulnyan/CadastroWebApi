@@ -9,5 +9,6 @@ namespace CadastroWebApi.Application.Interfaces
         Task<List<Usuario>> ListarUsuariosAsync();
         Task<Usuario?> AtualizarUsuarioAsync(int id, UsuarioDto usuarioDto);
         Task<bool> DeletarUsuarioAsync(int id);
+        Task<Usuario?> LoginAsync(LoginDto loginDto);
     }
 }

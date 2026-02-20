@@ -9,6 +9,7 @@
         public string Telefone { get; set; }
         public string Endereco { get; set; }
         public DateTime DataNascimento { get; set; }
+        public string Senha { get; set; }
 
     }
 }

@@ -24,7 +24,9 @@ namespace CadastroWebApi.Application.Services
                 Idade = usuarioDto.Idade,
                 Telefone = usuarioDto.Telefone,
                 Endereco = usuarioDto.Endereco,
-                DataNascimento = usuarioDto.DataNascimento
+                DataNascimento = usuarioDto.DataNascimento,
+                Senha = usuarioDto.Senha // Certifique-se de que a senha está sendo tratada de forma segura (hash, etc.)
+
             };
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
@@ -61,6 +63,20 @@ namespace CadastroWebApi.Application.Services
             _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
             return true;
+        }
+
+        public async Task<Usuario?> LoginAsync(LoginDto loginDto)
+        {
+            // Busca o usuário pelo e-mail
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(u => u.Email == loginDto.Email); 
+
+            if(usuario == null || usuario.Senha != loginDto.Senha)
+            {
+                return null; // Retorna null se o usuário não for encontrado ou a senha não corresponder
+            }   
+
+            return usuario;
         }
 
     }

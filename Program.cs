@@ -8,7 +8,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 var key = builder.Configuration["Jwt:Key"]!;
-var allowedOrigin = "http://localhost:56574";
+var allowedOrigin = "http://localhost:59690";
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

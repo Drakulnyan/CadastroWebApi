@@ -18,6 +18,15 @@ namespace CadastroWebApi.Controllers
             _usuarioService = usuarioService;
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        {
+            var usuario = await _usuarioService.ObterUsuarioPorIdAsync(id);
+            if (usuario == null)
+                return NotFound("Usuário não encontrado.");
+            return Ok(usuario);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UsuarioDto usuarioDto)
         {

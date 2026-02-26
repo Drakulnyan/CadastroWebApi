@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Backup\\Estudos\\CadastroWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\application\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:application\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|d:\\backup\\estudos\\cadastrowebapi\\application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{154359DB-F067-46CA-B658-2E9CC1E0AB1F}|CadastroWebApi.csproj|solutionrelative:application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,18 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Application\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "D:\\Backup\\Estudos\\CadastroWebApi\\Application\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T00:53:52.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "D:\\Backup\\Estudos\\CadastroWebApi\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T17:53:59.834Z"
+              "WhenOpened": "2026-02-06T17:53:59.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Application\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\LoginDto.cs",
@@ -70,19 +88,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Application\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UsuarioService.cs",
               "ToolTip": "D:\\Backup\\Estudos\\CadastroWebApi\\Application\\Services\\UsuarioService.cs",
               "RelativeToolTip": "Application\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwBsAAAB4AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T00:22:29.808Z"
+              "WhenOpened": "2025-06-17T00:22:29.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "UsuarioDto.cs",
               "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Application\\DTOs\\UsuarioDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\UsuarioDto.cs",
@@ -90,37 +109,37 @@
               "RelativeToolTip": "Application\\DTOs\\UsuarioDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T00:19:27.066Z"
+              "WhenOpened": "2025-06-17T00:19:27.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Backup\\Estudos\\CadastroWebApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:03:19.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T23:03:19.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
               "ToolTip": "D:\\Backup\\Estudos\\CadastroWebApi\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T22:53:33.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\Backup\\Estudos\\CadastroWebApi\\Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",

@@ -14,7 +14,7 @@ namespace CadastroWebApi.Application.Services
         {
             _context = context;
         }
-
+        
         public async Task<Usuario> AdicionarUsuarioAsync(UsuarioDto usuarioDto)
         {
             var usuario = new Usuario 
@@ -25,12 +25,17 @@ namespace CadastroWebApi.Application.Services
                 Telefone = usuarioDto.Telefone,
                 Endereco = usuarioDto.Endereco,
                 DataNascimento = usuarioDto.DataNascimento,
-                Senha = usuarioDto.Senha // Certifique-se de que a senha está sendo tratada de forma segura (hash, etc.)
+                Senha = usuarioDto.Senha 
 
             };
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
             return usuario;
+        }
+
+        public async Task<Usuario?> ObterUsuarioPorIdAsync(int id)
+        {
+            return await _context.Usuarios.FindAsync(id);
         }
 
         public async Task<List<Usuario>> ListarUsuariosAsync()
@@ -50,6 +55,7 @@ namespace CadastroWebApi.Application.Services
             usuario.Telefone = usuarioDto.Telefone;
             usuario.Endereco = usuarioDto.Endereco;
             usuario.DataNascimento = usuarioDto.DataNascimento;
+            usuario.Senha = usuarioDto.Senha; 
 
             await _context.SaveChangesAsync();
             return usuario;
